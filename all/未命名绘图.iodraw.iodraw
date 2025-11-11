@@ -12,14 +12,17 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="前端选定agent点击取消执行" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="1PMnoh9__Y-gdVs60-aa-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1PMnoh9__Y-gdVs60-aa-0" target="1PMnoh9__Y-gdVs60-aa-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1PMnoh9__Y-gdVs60-aa-0" value="更新结果库状态为“取消升级”、更新记录表库状态为“手动终止”" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="190" width="120" height="40" as="geometry" />
+          <mxGeometry x="140" y="180" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="1PMnoh9__Y-gdVs60-aa-1" value="批量升级时，每一批升级前查询一次结果库，若状态为“取消执行”则跳过此agent的自升级" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="280" width="120" height="40" as="geometry" />
+          <mxGeometry x="120" y="310" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1PMnoh9__Y-gdVs60-aa-2" value="更新结果库状态为“取消升级”、更新记录表库状态为“手动终止”" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="380" width="120" height="40" as="geometry" />
+        <mxCell id="1PMnoh9__Y-gdVs60-aa-2" value="&lt;div&gt;在自升级agent返回结果时，判断记录表的状态，如果为“手动终止”则不更新状态&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="430" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
